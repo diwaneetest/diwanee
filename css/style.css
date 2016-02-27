@@ -1,0 +1,735 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro';
+}
+
+#hero {
+    background: url("../img/diwanee-cover.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 960px;
+}
+
+nav {
+    padding-top: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+}
+.dropdown-btn {
+    float: right;
+}
+
+nav .dropdown-btn, .links-mob {
+    display: none;
+}
+
+.dropdown-btn span {
+    display: none;
+    width: 22px;
+    height: 2px;
+    background-color: #07051d;
+    margin-top: 5px;
+}
+
+.dropdown-btn :first-child {
+    margin-top: 10px;
+}
+
+.dropdown-list {
+    display: none;
+}
+
+.links-desc {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding-top: 9px;
+}
+
+.links {
+    display: inline;
+    font-size: 13px;
+    letter-spacing: 4px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.links:last-child {
+    padding-right: 0;
+}
+
+.links a {
+    color: #333333;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.esc {
+    margin-top: -5px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 120px;
+    color: #333;
+    letter-spacing: 1px;
+    padding: 230px 0 35px;
+    margin: 0;
+}
+
+.line {
+    width: 65px;
+    height: 3px;
+    background-color: #c31431;
+    margin: 0 auto;
+}
+
+.header .subtitle-desc {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 75px 220px 0;
+}
+
+.header .subtitle-mob {
+    display: none;
+}
+
+main {
+    clear: both;
+    content: "";
+    display: table;
+    margin: 0 auto;
+}
+
+.section-item {
+    width: 33.33333333%;
+    float: left;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.section-item:first-child {
+    background: url("../img/triangle-white.png") no-repeat #fbfbfb -298px;
+}
+
+.section-item:nth-child(2) {
+    background: url("") #ededed;
+}
+
+.section-item:last-child {
+    background: url("../img/square-white.png") no-repeat #fbfbfb 220px 182px;;
+}
+
+.section-item h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 4px;
+    line-height: 30px;
+    margin-top: 35px;
+}
+
+.silver-line {
+    height: 2px;
+    width: 40px;
+    background-color: #cbcbcb;
+    margin: 40px auto;
+}
+
+.section-item img {
+    height: 95px;
+}
+
+.section-item p {
+    padding: 0 30px;
+    margin: 0;
+    font-size: 22px;
+    color: #8f827a;
+    line-height: 32px;
+}
+
+.jobs, .about-us {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 200px;
+}
+
+.jobs h3, .about-us h3 {
+    font-size: 16px;
+    color: #a2a1a6;
+    font-weight: 100;
+    letter-spacing: 7px;
+    padding-bottom: 50px;
+}
+
+.jobs h4, .about-us h4 {
+    font-size: 60px;
+    color: #333;
+    letter-spacing: 3px;
+    line-height: 75px;
+    margin: 0;
+    padding-bottom: 65px;
+}
+
+.jobs p {
+    font-size: 36px;
+    color: #333333;
+    line-height: 50px;
+    margin: 0;
+    padding: 70px 140px 110px;
+}
+
+.position-developer .link-btn, .position-manager .link-btn, .position-designer .link-btn {
+    float: right;
+    margin-top: 150px;
+}
+
+.position-developer .link-btn, .read-more-btn, .position-manager .link-btn, .position-designer .link-btn {
+    text-decoration: none;
+    padding: 15px 45px;
+    border: 1px solid #979797;
+    line-height: 23px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.section1 {
+    width: 60%;
+    padding:60px 0 80px;
+    text-align: left;
+    padding-bottom: 70px;
+}
+
+.section1 h5 {
+    font-size: 28px;
+    color: #333333;
+    letter-spacing: 2.33px;
+    line-height: 36px;
+    margin: 0;
+}
+
+.section1 p {
+    font-size: 24px;
+    color: #888;
+    line-height: 34px;
+    margin: 45px 0;
+    padding: 0;
+}
+
+.html-skill, .css-skill, .java-script-skill, .ux-skill, .design-skill {
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    margin-right: 10px;
+    color: #af2731;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.html-skill {
+    padding: 8px 18px 8px 12px;
+}
+
+.css-skill {
+    padding: 8px 25px 8px 20px;
+}
+
+.java-script-skill {
+    padding: 9px 15px 9px 8px;
+}
+
+.position-manager {
+    background-color: #333333;
+}
+
+.position-manager h5, .position-manager span, .position-manager .link-btn {
+    color: #ffffff;
+}
+
+.ux-skill {
+    padding: 8px 25px ;
+}
+
+.design-skill {
+    padding: 8px 30px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.about-us {
+    background-color: #fbfbfb;
+    padding-bottom: 130px;
+}
+
+.description {
+    text-align: justify;
+    width: 69%;
+    margin: 0 auto;
+    padding-top: 45px;
+    color: #86878c;
+    font-size: 18px;
+}
+
+.description p {
+    line-height: 30px;
+}
+
+.socials {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.socials h3 {
+    margin: 0;
+    padding-bottom: 35px;
+    font-size: 16px;
+    color: #a2a1a6;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
+.socials a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.socials a:last-child {
+    margin-right: 0;
+}
+
+footer {
+    background-color: #2d2d2d;
+    padding: 140px 0 120px;
+}
+
+.footer-contact .contact {
+    float: left;
+    width: 33.3333%;
+}
+
+.footer-contact {
+    clear: both;
+    display: table;
+    content: '';
+    width: 100%;
+}
+
+.contact span {
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #9B9B9B;
+    line-height: 28px;
+    margin: 0;
+}
+
+.contact-item {
+    width: 235px;
+    margin: 0 auto;
+}
+
+.contact-item img {
+    padding-right: 10px;
+}
+
+.bottom-footer {
+    background-color: #242424;
+    padding: 40px 0 20px;
+}
+
+.copyright {
+    color: #5B5B5B;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.mail {
+    float: right;
+}
+
+.mail a {
+    text-decoration: none;
+    color: #5B5B5B;
+}
+
+.mail i {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.copyright-mob {
+    display: none;
+}
+
+/*responsive */
+
+@media screen and (max-width: 992px){
+
+    #hero {
+        height: 900px;
+    }
+
+    .header h1 {
+        font-size: 94px;
+        padding-top: 120px;
+    }
+    .header .subtitle-desc {
+        padding: 75px 100px 0;
+    }
+
+    .section-item, .jobs {
+        padding-top: 100px;
+    }
+
+    .section-item p {
+        font-size: 18px;
+    }
+
+    .jobs {
+        padding-bottom: 80px;
+    }
+
+    .jobs h4, .about-us h4 {
+        font-size: 50px;
+    }
+
+    .information p {
+        font-size: 30px;
+        padding: 70px 70px 110px;
+    }
+
+    .btn {
+        margin-top: 30px;
+    }
+
+    .about-us {
+        padding-bottom: 100px;
+    }
+
+    .socials {
+        padding: 70px 0;
+    }
+
+    footer {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #hero {
+        height: 536px;
+        position: relative;
+    }
+
+    nav {
+        padding-top: 15px;
+    }
+
+    .dropdown-list {
+        position: absolute;
+        left: 0;
+        top: 50px;
+        bottom: 0;
+        right: 0;
+    }
+
+    nav .links-desc {
+        display: none;
+    }
+
+    nav .dropdown-btn, .links-mob {
+        display: block;
+    }
+
+    nav .links-mob {
+        background-color: #2d2d2d;
+        list-style-type: none;
+        padding: 0;
+        opacity: 0.9;
+    }
+
+    .links-mob .links-dropdown {
+        text-align: center;
+        font-size: 22px;
+        padding: 25px 0;
+        border: 1px solid #404040;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .links-mob a {
+        text-decoration: none;
+        color: #f2f8ff;
+    }
+
+    .social-icon, .icon a {
+        color: #85847f;
+    }
+
+    .social-icon {
+        padding: 30px 20px;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+    .icon {
+        float: right;
+        font-size: 25px;
+    }
+
+    .icon i {
+        vertical-align: super;
+    }
+
+    .icon a {
+        margin-right: 20px;
+    }
+
+    .icon :last-child {
+        padding-right: 0;
+    }
+
+    .dropdown-btn span {
+        display: block;
+    }
+
+    .dropdown-btn {
+
+    }
+
+    .esc {
+        display: block;
+        float: right;
+        font-size: 34px;
+    }
+
+    .esc a {
+        text-decoration: none;
+        color:#010133;
+    }
+
+    .header h1 {
+        font-size: 60px;
+        line-height: 56px;
+        letter-spacing: 3px;
+    }
+
+    .header .subtitle-desc {
+        display: none;
+    }
+
+    .header .subtitle-mob {
+        margin: 0;
+        font-size: 21px;
+        color: #333;
+        letter-spacing: 1px;
+        line-height: 40px;
+        display: block;
+        padding-top: 40px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .section-item {
+        float: none;
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 35px;
+    }
+
+    .section-item img {
+        height: 75px;
+    }
+
+    .section-item h2 {
+        font-size: 23px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+
+    .silver-line {
+        margin: 20px auto;
+    }
+
+    .section-item:first-child {
+        background: url("") no-repeat #fbfbfb ;
+    }
+
+    .section-item:last-child {
+        background: url("") no-repeat #fbfbfb;
+    }
+
+    .jobs {
+        padding-top: 55px;
+        padding-bottom: 95px;
+    }
+
+    .jobs h3, .about-us h3 {
+        padding-bottom: 0;
+        font-size: 15px;
+        letter-spacing: 6px;
+    }
+
+    .jobs h4, .about-us h4 {
+        font-size: 39px;
+        letter-spacing: 1px;
+        padding-bottom: 30px;
+        line-height: 45px;
+    }
+
+    .line {
+        width: 40px;
+    }
+
+    .information p {
+        line-height: 27px;
+        font-size: 22px;
+        padding: 30px 0 70px;
+    }
+
+    .position-developer, .position-designer, .position-manager {
+        padding: 10px 0;
+    }
+
+    .position-developer, .position-designer {
+        background-color: #f8f7f5;
+    }
+
+    .position-manager {
+        background-color: #FFFFFF;
+    }
+
+    .position-manager .section1 h5 {
+        color: #2c334f;
+    }
+
+    .position-manager span {
+        color: #af2731;
+    }
+
+    .section1 {
+        padding:0;
+        width: 100%;
+    }
+
+    .section1 h5 {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .section1 p {
+        font-size: 15px;
+        margin: 0;
+        padding: 0 0 10px;
+        line-height: 25px;
+    }
+
+    .link-btn {
+        display: none;
+    }
+
+    .html-skill, .css-skill, .java-script-skill, .ux-skill, .design-skill {
+        border: none;
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .read-more-btn {
+        padding: 10px 80px;
+        font-size: 14px;
+    }
+
+    .btn {
+        margin-top: 70px;
+    }
+
+    .about-us {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .about-us h4 {
+        padding-top: 30px;
+    }
+
+    .description {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    footer {
+        padding: 80px 0;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+
+    .footer-contact .contact {
+        float: none;
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .footer-contact .contact:first-child {
+        padding-top: 0;
+    }
+
+    .bottom-footer {
+        padding: 20px 0;
+    }
+
+    .copyright .copyright-desc {
+        display: none;
+    }
+
+    .mail {
+        float: none;
+        text-align: center;
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .mail span {
+        vertical-align: super;
+    }
+
+    .mail i {
+        font-size: 33px;
+    }
+
+    .copyright-mob {
+        display: block;
+        background-color: #2d2d2d;
+        color: #5B5B5B;
+        text-align: center;
+        padding: 10px 0 15px;
+        font-size: 13px;
+    }
+}
+
+
